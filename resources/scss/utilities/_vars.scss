@@ -1,0 +1,49 @@
+//------------------------------------//
+//     Vars                           //
+//------------------------------------//
+//
+// @desc         List all the variables used in our project
+// @name         _vars.sass
+// @author       Matteo
+
+
+
+
+//------------------------------------//
+//    Colors                          //
+//------------------------------------//
+
+$color-brand:                   #F2C900;
+$color-text-default:	          #3C3C3C;
+$color-global-white:            #FFFFFF;
+$color-global-hog:              #f21b3f;
+$color-global-agicap:           #2196F3;
+$color-global-skimpy:           #26A5DA;
+$color-global-psionic:          #26003E;
+
+
+//------------------------------------//
+//    Font Size                       //
+//------------------------------------//
+
+$font-size-heading-1:					    68px;
+$font-size-heading-2:					    52px;
+$font-size-heading-3:					    28px;
+$font-size-default:						    17px;
+$font-size-small:						      14px;
+
+$font-size-heading-1--mobile:	    32px;
+$font-size-heading-2--mobile:	    28px;
+$font-size-heading-3--mobile:	    22px;
+$font-size-default--mobile:		    15px;
+$font-size-small--mobile:			    12px;
+
+
+//------------------------------------//
+//    Breakpoints                     //
+//------------------------------------//
+
+$breakpoint-for-4k-up:              2560px;
+$breakpoint-for-laptop-large-up:    1440px;
+$breakpoint-for-laptop-up:          1024px;
+$breakpoint-for-mobile-only:        1023px;
