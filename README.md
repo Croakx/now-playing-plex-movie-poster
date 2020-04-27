@@ -2,11 +2,16 @@
 
 Display the poster and some details of the movie you are currently watching with Plex.
 
+## Disclaimer
+
+I'm not a developer so you will probably get mad when looking at my code but I wanted to share this with the world because I needed it and tought it can be useful to others.
+
 ## Installation
 
 - Clone the repository
 - TODO: Add configuration
-- Run `npm install .`
+- Run `npm install -g nodemon`
+- Run `npm install`
 - Run `npm start app.js`
 
 ## Current limitations
