@@ -9,10 +9,15 @@ I'm not a developer so you will probably get mad when looking at my code but I w
 ## Installation
 
 - Clone the repository
-- TODO: Add configuration
-- Run `npm install -g nodemon`
+- Open `config/config.js` and edit settings
+- Run `npm run build`
 - Run `npm install`
+- Run `npm install -g nodemon`
 - Run `npm start app.js`
+
+## Keep the app running while terminal is closed
+
+There are several ways to do it, I personally use [PM2](https://pm2.keymetrics.io/)
 
 ## Current limitations
 

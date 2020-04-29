@@ -2,14 +2,8 @@ const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 const logger = require('morgan');
-
+const config = require('./config/config.js');
 const indexRouter = require('./routes/index');
-
-// request = require('request');
-// cheerio = require('cheerio');
-plexServerIP = '192.168.1.50';
-plexServerPort = 32400;
-
 const app = express();
 
 // view engine setup
@@ -39,8 +33,11 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(3200, function () {
-  console.log('Example app listening on port 3200.');
+app.listen(config.app.port, function () {
+  console.log('Now Playing Plex Movie Poster running on port ' + config.app.port + '.');
+  console.log(config.plex.ip);
+  console.log(config.plex.port);
+  console.log(config.app.port);
 });
 
 module.exports = app;
