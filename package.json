@@ -7,7 +7,7 @@
     "build-css": "node-sass --output-style  compressed --include-path scss resources/scss/main.scss public/css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "build": "npm run build-css && npm run browserify",
-    "browserify": "browserify resources/js/main.js -o public/js/main.min.js",
+    "browserify": "browserify resources/js/main.js -o public/js/main.js",
     "start": "nodemon -e js,pug"
   },
   "repository": {

@@ -23,7 +23,15 @@ window.addEventListener('DOMContentLoaded', function(){
         movieYear  = $('Video').attr('year');
         movieDuration = $('Video').attr('duration');
         movieSummary = $('Video').attr('summary');
-        moviePoster = 'http://' + config.plex.ip + ':' + config.plex.port + $('Video').attr('thumb');
+        tvShowPoster = $('Video').attr('parentThumb');
+
+        if (typeof tvShowPoster != "undefined") {
+          poster = 'http://' + config.plex.ip + ':' + config.plex.port + $('Video').attr('parentThumb');
+        }
+        else {
+          poster = 'http://' + config.plex.ip + ':' + config.plex.port + $('Video').attr('thumb');;
+        }
+
         viewOffset = $('Video').attr('viewOffset');
       }
 
@@ -33,7 +41,7 @@ window.addEventListener('DOMContentLoaded', function(){
         movieData.year  = movieYear;
         movieData.duration = millisToMinutesAndSeconds(movieDuration);
         movieData.summary = movieSummary;
-        movieData.poster = moviePoster;
+        movieData.poster = poster;
         movieData.viewOffset = millisToMinutesAndSeconds(viewOffset);
 
         var nothingPlaying =  document.querySelector('.nothing-playing');
