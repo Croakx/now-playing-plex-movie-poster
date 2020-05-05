@@ -2,6 +2,8 @@
 
 Display the poster and some details of the movie you are currently watching with Plex.
 
+![Now Playing Plex Movie Poster screenshot](https://user-images.githubusercontent.com/2601348/81071491-176e9700-8ee5-11ea-97df-73a66e53e721.png)
+
 ## Disclaimer
 
 I'm not a developer so you will probably get mad when looking at my code but I wanted to share this with the world because I needed it and tought it can be useful to others.
