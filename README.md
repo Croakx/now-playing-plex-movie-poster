@@ -8,6 +8,10 @@ Display the poster and some details of the movie you are currently watching with
 
 I'm not a developer so you will probably get mad when looking at my code but I wanted to share this with the world because I needed it and tought it can be useful to others.
 
+## Requirements
+
+First, you need to install [Node.js](https://nodejs.org/en/download/)
+
 ## Installation
 
 - Clone the repository
